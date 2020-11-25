@@ -68,7 +68,4 @@ exports.signout = (req, res) => {
     });
 };
 
-exports.requireSignin = expressJwt({
-    secret: 'secret',
-    algorithms: [process.env.JWT_SECRET]
-})
+exports.requireSignin = expressJwt({ secret: process.env.JWT_SECRET, algorithms: ['HS256'] });
