@@ -51,7 +51,7 @@ exports.create = (req, res) => {
         blog.excerpt = smartTrim(body, 320, ' ', ' ...');
         blog.slug = slugify(title).toLowerCase();
         blog.mtitle = `${title} | ${process.env.APP_NAME}`;
-        blog.mdesc = stripHtml(body.substring(0, 160));
+        blog.mdesc = stripHtml(body.substring(0, 160)).result;
         blog.postedBy = req.user._id;
         // categories and tags
         let arrayOfCategories = categories && categories.split(',');
