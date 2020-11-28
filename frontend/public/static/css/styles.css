@@ -5,3 +5,13 @@
 .ql-editor {
 	min-height: 250px;
 }
+
+.featured-image {
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+}
+
+.nav-bar {
+	background-color: aqua;
+}
