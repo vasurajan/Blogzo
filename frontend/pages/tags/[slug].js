@@ -1,22 +1,22 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
-import { singleCategory } from '../../actions/category';
+import { singleTag } from '../../actions/tag';
 import { API, DOMAIN, APP_NAME } from '../../config';
 import renderHTML from 'react-render-html';
 import moment from 'moment';
 import Card from '../../components/blog/Card';
 
-const Category = ({ category, blogs, query }) => {
+const Tag = ({ tag, blogs, query }) => {
     const head = () => (
         <Head>
             <title>
-                {category.name} | {APP_NAME}
+                {tag.name} | {APP_NAME}
             </title>
-            <meta name="description" content={`Best programming articles on ${category.name}`} />
+            <meta name="description" content={`Best programming articles on ${tag.name}`} />
             <link rel="canonical" href={`${DOMAIN}/categories/${query.slug}`} />
-            <meta property="og:title" content={`${category.name}| ${APP_NAME}`} />
-            <meta property="og:description" content={`Best programming articles on ${category.name}`} />
+            <meta property="og:title" content={`${tag.name}| ${APP_NAME}`} />
+            <meta property="og:description" content={`Best programming articles on ${tag.name}`} />
             <meta property="og:type" content="website" />
             <meta property="og:url" content={`${DOMAIN}/categories/${query.slug}`} />
             <meta property="og:site_name" content={`${APP_NAME}`} />
@@ -35,7 +35,7 @@ const Category = ({ category, blogs, query }) => {
                     <div className="container-fluid text-center">
                         <header>
                             <div className="col-md-12 pt-3">
-                                <h1 className="display-4 font-weight-bold">{category.name}</h1>
+                                <h1 className="display-4 font-weight-bold">{tag.name}</h1>
                                 {blogs.map((b, i) => (
                                     <div>
                                         <Card key={i} blog={b} />
@@ -51,14 +51,14 @@ const Category = ({ category, blogs, query }) => {
     );
 };
 
-Category.getInitialProps = ({ query }) => {
-    return singleCategory(query.slug).then(data => {
+Tag.getInitialProps = ({ query }) => {
+    return singleTag(query.slug).then(data => {
         if (data.error) {
             console.log(data.error);
         } else {
-            return { category: data.category, blogs: data.blogs, query };
+            return { tag: data.tag, blogs: data.blogs, query };
         }
     });
 };
 
-export default Category;
+export default Tag;
