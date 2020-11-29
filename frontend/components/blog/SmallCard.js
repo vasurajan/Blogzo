@@ -26,14 +26,14 @@ const SmallCard = ({ blog }) => {
                             <h5 className="card-title">{blog.title}</h5>
                         </a>
                     </Link>
-                    <p className="card-text">{renderHTML(blog.excerpt)}</p>
+                    <div className="card-text">{renderHTML(blog.excerpt)}</div>
                 </section>
             </div>
 
             <div className="card-body">
                 Posted {moment(blog.updatedAt).fromNow()} by{' '}
-                <Link href={`/`}>
-                    <a className="float-right">{blog.postedBy.name}</a>
+                <Link href={`/profile/${blog.postedBy.username}`}>
+                    <a>{blog.postedBy.username}</a>
                 </Link>
             </div>
         </div>
