@@ -17,6 +17,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import Search from './blog/Search';
 
 Router.onRouteChangeStart = url => NProgress.start();
 Router.onRouteChangeComplete = url => NProgress.done();
@@ -87,6 +88,7 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
+            <Search />
         </div>
     );
 };
