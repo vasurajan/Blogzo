@@ -11,6 +11,7 @@ export const DOMAIN = publicRuntimeConfig.PRODUCTION
     : publicRuntimeConfig.DOMAIN_DEVELOPMENT;
 
 export const DISQUS_SHORTNAME = publicRuntimeConfig.DISQUS_SHORTNAME;
+export const GOOGLE_CLIENT_ID = publicRuntimeConfig.GOOGLE_CLIENT_ID;
 
 // import getConfig from 'next/config';
 // const { publicRuntimeConfig } = getConfig();
