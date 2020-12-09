@@ -8,10 +8,10 @@ const Index = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h1 className="display-4 font-weight-bold">
+                            <h1 style={{ color: "black" }} className="display-4 font-weight-bold">
                                 WELCOME TO BLOGZO.
                             </h1>
-                            <h1 className="display-4 font-weight-bold">CREATIVITY MADE SIMPLE</h1>
+                            <h1 style={{ color: "black" }} className="display-4 font-weight-bold">CREATIVITY MADE SIMPLE</h1>
                         </div>
                     </div>
                 </div>

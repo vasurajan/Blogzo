@@ -53,7 +53,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
         return (
             size > 0 &&
             size >= limit && (
-                <button onClick={loadMore} className="btn btn-outline-primary btn-lg">
+                <button style={{ color: "white", backgroundColor: "black" }} onClick={loadMore} className="btn btn-outline-dark btn-lg">
                     Load More
                 </button>
             )
@@ -75,7 +75,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
     const showAllCategories = () => {
         return categories.map((c, i) => (
             <Link href={`/categories/${c.slug}`} key={i}>
-                <a className="btn btn-primary mr-1 ml-1 mt-3">{c.name}</a>
+                <a className="btn btn-dark mr-1 ml-1 mt-3">{c.name}</a>
             </Link>
         ));
     };
@@ -83,7 +83,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
     const showAllTags = () => {
         return tags.map((t, i) => (
             <Link href={`/tags/${t.slug}`} key={i}>
-                <a className="btn btn-outline-primary mr-1 ml-1 mt-3">{t.name}</a>
+                <a className="btn btn-outline-dark mr-1 ml-1 mt-3">{t.name}</a>
             </Link>
         ));
     };
@@ -104,7 +104,7 @@ const Blogs = ({ blogs, categories, tags, totalBlogs, blogsLimit, blogSkip, rout
                     <div className="container-fluid">
                         <header>
                             <div className="col-md-12 pt-3">
-                                <h1 style={{ backgroundColor: "yellow" }} className="display-4 font-weight-bold text-center">
+                                <h1 className="display-4 font-weight-bold text-center">
                                     Technical blogs and articles
                                 </h1>
                             </div>

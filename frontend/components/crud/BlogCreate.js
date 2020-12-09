@@ -187,7 +187,7 @@ const CreateBlog = ({ router }) => {
                 </div>
 
                 <div>
-                    <button type="submit" className="btn btn-primary">
+                    <button type="submit" style={{ color: "white", backgroundColor: "black" }} className="btn btn-dark">
                         Publish
                     </button>
                 </div>
@@ -213,7 +213,7 @@ const CreateBlog = ({ router }) => {
                             <hr />
 
                             <small className="text-muted">Max size: 1mb</small>
-                            <label className="btn btn-outline-info">
+                            <label style={{ color: "white", backgroundColor: "black", cursor: "pointer", margin: "4px" }} className="btn btn-dark">
                                 Upload featured image
                                 <input onChange={handleChange('photo')} type="file" accept="image/*" hidden />
                             </label>

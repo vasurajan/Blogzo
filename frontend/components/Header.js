@@ -34,7 +34,7 @@ const Header = () => {
         <div>
             <Navbar color="light" light expand="md">
                 <Link href="/">
-                    <NavLink style={{ cursor: 'pointer' }} className="font-weight-bold">{APP_NAME}</NavLink>
+                    <NavLink style={{ cursor: 'pointer', fontSize: "1.5rem" }} className="font-weight-bold">{APP_NAME}</NavLink>
                 </Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
@@ -92,7 +92,7 @@ const Header = () => {
                             </NavItem>
                         )}
                         <NavItem>
-                            <a href="/user/crud/blog" className="btn btn-primary text-light" style={{ cursor: 'pointer' }}>Create a Blog</a>
+                            <a href="/user/crud/blog" className="btn btn-dark text-light" style={{ cursor: 'pointer', backgroundColor: "black", color: "white" }}>Create a Blog</a>
                         </NavItem>
                     </Nav>
                 </Collapse>

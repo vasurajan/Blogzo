@@ -87,7 +87,7 @@ const SignupComponent = () => {
                 </div>
 
                 <div>
-                    <button className="btn btn-primary">Signup</button>
+                    <button style={{ backgroundColor: "black" }} className="btn btn-dark">Signup</button>
                 </div>
             </form>
         );

@@ -14,17 +14,17 @@ const UserIndex = () => {
                         <div className="col-md-4">
                             <ul className="list-group">
                                 <li className="list-group-item">
-                                    <a href="/user/crud/blog">Create Blog</a>
+                                    <a style={{ color: "black" }} href="/user/crud/blog">Create Blog</a>
                                 </li>
 
                                 <li className="list-group-item">
                                     <Link href="/user/crud/blogs">
-                                        <a>Update/Delete Blog</a>
+                                        <a style={{ color: "black" }}>Update/Delete Blog</a>
                                     </Link>
                                 </li>
 
                                 <li className="list-group-item">
-                                    <a href="/user/update">Update profile</a>
+                                    <a style={{ color: "black" }} href="/user/update">Update profile</a>
                                 </li>
                             </ul>
                         </div>

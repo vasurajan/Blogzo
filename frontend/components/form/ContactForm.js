@@ -79,7 +79,7 @@ const ContactForm = ({ authorEmail }) => {
                 </div>
 
                 <div>
-                    <button className="btn btn-primary">{buttonText}</button>
+                    <button style={{ color: "white", backgroundColor: "black" }} className="btn btn-dark">{buttonText}</button>
                 </div>
             </form>
         );

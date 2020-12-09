@@ -15,34 +15,34 @@ const AdminIndex = () => {
                             <ul className="list-group">
                                 <li className="list-group-item">
                                     <Link href="/admin/crud/category-tag">
-                                        <a>Create Category</a>
+                                        <a style={{ color: "black" }}>Create Category</a>
                                     </Link>
                                 </li>
 
                                 <li className="list-group-item">
                                     <Link href="/admin/crud/category-tag">
-                                        <a>Create Tag</a>
+                                        <a style={{ color: "black" }}>Create Tag</a>
                                     </Link>
                                 </li>
                                 <li className="list-group-item">
                                     <Link href="/admin/crud/blog">
-                                        <a>Create Blog</a>
+                                        <a style={{ color: "black" }}>Create Blog</a>
                                     </Link>
                                 </li>
 
                                 <li className="list-group-item">
                                     <Link href="/admin/crud/blogs">
-                                        <a>Update/Delete Blog</a>
+                                        <a style={{ color: "black" }}>Update/Delete Blog</a>
                                     </Link>
                                 </li>
                                 <li className="list-group-item">
                                     <Link href="/user/update">
-                                        <a>Update Profile</a>
+                                        <a style={{ color: "black" }}>Update Profile</a>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-8">right</div>
+                        <div className="col-md-8"></div>
                     </div>
                 </div>
             </Admin>
