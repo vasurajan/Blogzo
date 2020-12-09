@@ -8,7 +8,10 @@
 <h3>7. Social Media Integration :</h3> people can login using their social media accounts and post directly what they want to share on this platform. They can easily integrate with their social profiles.
 <h3>8. Contact Method with request feature:</h3> Users can request for any specific solution to a particular problem and experts on this platform will verify and publish the relevant articles.
 <h1>Screenshots Walkthrough :-</h1>
-![Screenshot (470)](https://user-images.githubusercontent.com/63305945/101675146-739f2800-3a7f-11eb-9bda-d38e24f9bff3.png)
+
+
+![Screenshot (470)](https://user-images.githubusercontent.com/63305945/101675525-ef00d980-3a7f-11eb-885b-9bb102ed67be.png)
+
 
 ![Screenshot (471)](https://user-images.githubusercontent.com/63305945/101675162-79950900-3a7f-11eb-8f09-0f1981802de4.png)
 
