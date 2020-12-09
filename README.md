@@ -1,4 +1,4 @@
-<h2>Features of “BlogZo”</h2>: 
+<h2>Features of “BlogZo” :-</h2>
 <h3>Create Post :</h3> Users/Authors/Bloggers can post on this platform which will be verified by the tech experts.
 <h3>Upload images or embed multimedia with emojis:</h3> They can include graphics to make the content more easy to understand.
 <h3>Configure the appearance and layout:</h3> The appearance and layout will be user friendly so any novice user/reader can be familiar with the functionalities.
