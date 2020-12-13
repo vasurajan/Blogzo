@@ -10,18 +10,24 @@
 <h1>Screenshots Walkthrough :-</h1>
 
 
+### Home Page
 ![Screenshot (470)](https://user-images.githubusercontent.com/63305945/101675525-ef00d980-3a7f-11eb-885b-9bb102ed67be.png)
 
-
+### Blogs Page
 ![Screenshot (471)](https://user-images.githubusercontent.com/63305945/101675162-79950900-3a7f-11eb-8f09-0f1981802de4.png)
 
+### Contact Page
 ![Screenshot (472)](https://user-images.githubusercontent.com/63305945/101675180-7bf76300-3a7f-11eb-876b-f1caf7219b56.png)
 
+### User Dashboard Page
 ![Screenshot (473)](https://user-images.githubusercontent.com/63305945/101675189-7ef25380-3a7f-11eb-9d7e-2a34f6fe0bb4.png)
 
+### Create a Blog Page
 ![Screenshot (475)](https://user-images.githubusercontent.com/63305945/101675205-84e83480-3a7f-11eb-89bd-97c21f466685.png)
 
+### Signin Page
 ![Screenshot (476)](https://user-images.githubusercontent.com/63305945/101675216-8a457f00-3a7f-11eb-9ad9-3a6f177a7e42.png)
 
+### Signup Page
 ![Screenshot (477)](https://user-images.githubusercontent.com/63305945/101675232-8e719c80-3a7f-11eb-9efb-2fb026ada599.png)
 
